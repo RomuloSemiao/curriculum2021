@@ -1,0 +1,68 @@
+body{
+    margin: 0 auto;
+    width: 960px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    line-height: 1.6;
+    color: #242424;
+    background: linear-gradient(to right, #8c7b7d, #8c8382, #a7a7ae, #cdcbca), no-repeat, center, fixed;  
+}
+.top{
+    width: 960px;
+    margin: 10px;
+    padding: 10px;
+}
+.title h1{
+    font-weight: bold;
+    margin: 0;
+    color: rgb(121, 4, 4);
+}
+.title h2{
+    font-weight: bold;
+    margin: 0;
+    color: rgb(121, 4, 4);
+    border-bottom: 2px dashed #756264;
+}
+.contact{
+    padding: 10px 0 0 0;
+}
+.contact li{
+    font-size: 16px;
+    list-style: none;
+}
+.first{
+    width: 960px;
+    margin: 10px;
+    padding: 5px;
+
+}
+.second{
+    width: 580px;
+    float: left;
+    padding: 5px;
+}
+.box{
+    font-size: 16px;
+    margin: 0;
+}
+.box li{
+    list-style: square;
+}
+.side{
+    width: 340px;
+    float: right;
+    padding: 5px;
+}
+.social li{
+    list-style: none;
+}
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: #242424;
+}
+li a:hover{
+    list-style: none;
+    text-decoration: none;
+    color: #46464665;
+}
