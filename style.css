@@ -7,7 +7,7 @@ body{
     color: #242424;
     background: linear-gradient(to right, #8c7b7d, #8c8382, #a7a7ae, #cdcbca), no-repeat, center, fixed;  
 }
-.top{
+header{
     width: 960px;
     margin: 10px;
     padding: 0 10px 0 0;
@@ -44,28 +44,38 @@ body{
     float: left;
     padding: 5px;
 }
-.box{
+article{
     font-size: 16px;
     margin: 0;
 }
-.box li{
+li{
     list-style: square;
 }
-.side{
+aside{
     width: 340px;
     float: right;
     padding: 5px;
 }
-.social li{
-    list-style: none;
+.btn{
+    border: none;
+    border-radius: 8px;
+    height: 60px;
+    width: 60px;
+    padding: 2px 2px;
+    cursor: pointer;
+    margin: 0 8px 8px 0;
 }
-li a{
-    list-style: none;
-    text-decoration: none;
-    color: #242424;
+.btn-color{
+    background: #a7a7ae;
+    box-shadow: 3px 3px 10px black;
 }
-li a:hover{
-    list-style: none;
-    text-decoration: none;
-    color: #46464665;
+.btn-color:hover{
+    background: #bdbdc5;
+    box-shadow: 3px 3px 10px black;
 }
+.btn-color:active{
+    position: relative;
+    top: 3px 3px;
+    box-shadow: none;
+}
+
